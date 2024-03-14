@@ -102,7 +102,7 @@ nav {
   padding: 10px 20px;
   color: #fff;
   border-radius: 5px;
-  font-size: 19px;
+  font-size: 13px;
 }
 .btns:hover {
   transform: scale(1.05);
@@ -557,16 +557,7 @@ nav {
   padding-right: 20px;
   margin-bottom: 50px;
 }
-.links1 a{
-  color: #fff;
-  font-size: 18px;
-  text-decoration: none;
-}
-.links2 a{
-  text-decoration: none;
-  color: #777;
-  font-size: 11px;
-}
+.links
 .links1 {
   display: flex;
   flex-direction: column;

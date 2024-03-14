@@ -102,7 +102,7 @@ nav {
   padding: 10px 20px;
   color: #fff;
   border-radius: 5px;
-  font-size: 19px;
+  font-size: 13px;
 }
 .btns:hover {
   transform: scale(1.05);
@@ -384,8 +384,10 @@ nav {
 
 }
 .store a img{
-   width: 140px; 
-   gap: 50px;
+   /* display: flex;  */
+   width: 160px; 
+   gap: 10px;
+  /* justify-content: space-between; */
 }
 .circle1 {
   position: absolute;
@@ -501,15 +503,9 @@ nav {
   color: #fff;
   background: #000;
   padding: 10px 30px;
+
   border-radius: 5px;
 }
-.input a:hover{
-  transform: scale(1.05);
-  transition: 1s ease-in-out;
-  color: #000;
-  background: rgb(137, 136, 136);
-}  
-
 .footDiv {
   display: flex;
   background: #000;
@@ -556,16 +552,6 @@ nav {
   margin-left: 150px;
   padding-right: 20px;
   margin-bottom: 50px;
-}
-.links1 a{
-  color: #fff;
-  font-size: 18px;
-  text-decoration: none;
-}
-.links2 a{
-  text-decoration: none;
-  color: #777;
-  font-size: 11px;
 }
 .links1 {
   display: flex;

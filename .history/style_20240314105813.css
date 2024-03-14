@@ -102,7 +102,7 @@ nav {
   padding: 10px 20px;
   color: #fff;
   border-radius: 5px;
-  font-size: 19px;
+  font-size: 13px;
 }
 .btns:hover {
   transform: scale(1.05);
@@ -355,8 +355,6 @@ nav {
   display: flex;
   gap: 50px;
   margin-bottom: 50px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .nextPageText2 {
@@ -380,12 +378,6 @@ nav {
 }
 .store {
   display: flex;
-  justify-content: space-between;
-
-}
-.store a img{
-   width: 140px; 
-   gap: 50px;
 }
 .circle1 {
   position: absolute;
@@ -480,7 +472,18 @@ nav {
   color: #fff;
   font-size: 30px;
 }
-
+/* .input {
+  border: 1px;
+  padding: 13px 170px 13px 9px;
+  border-radius: 4px;
+  outline: none;
+  position: relative;
+  margin-bottom: 3px;
+}
+.inputbtn {
+  background: #000;
+  color: #fff;
+} */
 .input {
   background: #fff;
   width: 40%;
@@ -501,23 +504,23 @@ nav {
   color: #fff;
   background: #000;
   padding: 10px 30px;
+
   border-radius: 5px;
 }
-.input a:hover{
-  transform: scale(1.05);
-  transition: 1s ease-in-out;
-  color: #000;
-  background: rgb(137, 136, 136);
-}  
-
 .footDiv {
   display: flex;
   background: #000;
-
+  /* padding-right: 50px;
+  padding-left: 70px; */
   place-items: center;
   padding: 100px;
 }
-
+/* .footTxt h1 {
+  padding-top: 100px;
+}
+.footTxt p {
+  padding-bottom: 40px;
+} */
 .footTxt {
   display: flex;
   flex-direction: column;
@@ -556,16 +559,6 @@ nav {
   margin-left: 150px;
   padding-right: 20px;
   margin-bottom: 50px;
-}
-.links1 a{
-  color: #fff;
-  font-size: 18px;
-  text-decoration: none;
-}
-.links2 a{
-  text-decoration: none;
-  color: #777;
-  font-size: 11px;
 }
 .links1 {
   display: flex;
