@@ -1,0 +1,53 @@
+@media (max-width: 488px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navList {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navList ul {
+    gap: 15px;
+  }
+  .navList ul li a {
+    font-size: 13px;
+  }
+  .landingPageContainer {
+    padding: 0px;
+  }
+  .landingPage {
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+  }
+  .textContainer h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+  .textContainer p {
+    font-size: 15px;
+  }
+  .imgContainer img {
+    flex: 0.5;
+    width: 100%;
+    display: flex;
+  }
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .arrivalText img {
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    width: 30%;
+    z-index: -1;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
