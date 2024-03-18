@@ -31,7 +31,7 @@
   }
   .btns {
     font-size: 12px;
-    margin-bottom: 20px;
+    margin
   }
   .imgCont {
     flex-direction: column;
@@ -107,18 +107,17 @@
     margin-bottom: 2 0px;
   }
   .input {
-    width: 90%;
+    width: 100%;
   }
   .input::placeholder {
     font-size: 12px;
   }
   .input a {
-    font-size: 5px;
+    font-size: 8px;
   }
   .footDiv {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .links {
     margin-left: 5px;

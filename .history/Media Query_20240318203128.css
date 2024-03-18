@@ -113,12 +113,11 @@
     font-size: 12px;
   }
   .input a {
-    font-size: 5px;
+    font-size: 8px;
   }
   .footDiv {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .links {
     margin-left: 5px;
